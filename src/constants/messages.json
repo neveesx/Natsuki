@@ -1,0 +1,5 @@
+{
+    "MENTIONS": {
+        "MessageOne": "> - {t:bunny_question} Olá, **<username>**! Eu me chamo **<clientName>**, uma incrível bot para o seu **servidor**. O meu prefixo neste servidor é `<prefix>`, use o comando `<prefix>ajuda` para ver os meus comandos."
+    }
+}

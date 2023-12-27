@@ -18,6 +18,7 @@ export interface CommandData {
     name: string;
     aliases?: string[];
     permissions?: CommandPermissions;
+    devops?: boolean;
     infos: CommandInformations;
     runner: CommandRunner
 }

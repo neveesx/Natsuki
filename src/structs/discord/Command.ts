@@ -7,6 +7,7 @@ export default class CommandBuilder implements CommandData {
 
     public permissions?: CommandPermissions;
     public aliases?: string[];
+    public devops?: boolean;
 
     public constructor(data: CommandData) {
         Object.assign(this, data)

@@ -1,5 +1,10 @@
 {
     "MENTIONS": {
         "MessageOne": "> - {t:bunny_question} Olá, **<username>**! Eu me chamo **<clientName>**, uma incrível bot para o seu **servidor**. O meu prefixo neste servidor é `<prefix>`, use o comando `<prefix>ajuda` para ver os meus comandos."
+    },
+
+    "DATABASE": {
+        "MessageMentioned": "> - {t:cloud}, **Eii, <username>**! Procurei em todo o meu **banco de dados**, mas não encontrei nada sobre o usuário <mentioned>. Ele(a) existe mesmo?",
+        "MessageAuthor": "> - {t:cloud} **Eii, <username>**! verifiquei em todo o meu **banco de dados**, mas não encontrei dados seus. use [ **<command>** ] para conseguir acesso aos meus comandos. Até logo!"
     }
 }

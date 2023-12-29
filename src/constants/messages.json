@@ -4,7 +4,20 @@
     },
 
     "DATABASE": {
-        "MessageMentioned": "> - {t:cloud}, **Eii, <username>**! Procurei em todo o meu **banco de dados**, mas não encontrei nada sobre o usuário <mentioned>. Ele(a) existe mesmo?",
-        "MessageAuthor": "> - {t:cloud} **Eii, <username>**! verifiquei em todo o meu **banco de dados**, mas não encontrei dados seus. use [ **<command>** ] para conseguir acesso aos meus comandos. Até logo!"
+        "MessageMentioned": "> - {t:cloud} **<username>**! eu procurei em todo o meu **banco de dados** informações sobre o usuário **<mentioned>**, mas eu **não encontrei nada** sobre ele(a). Peça para ele(a) se verificar usando o comando [ **<prefix>verificar** ].",
+        "MessageAuthor": "> - {t:cloud} **<username>**! Eu procurei em todo o meu **banco de dados**, mas **não encontrei informação alguma** sobre você. Use o comando [ **<prefix>verificar** ] para obter acesso aos meus comandos. Até logo!"
+    },
+
+    "BLACKLISTED": {
+        "MessageBanned": "> - {t:cancel} Ops, **<username>**, parece que <mention> está **banido(a)** do uso dos meus comandos, em virtude do **descumprimento** dos meus **termos de serviço**. **data do banimento**: <timestampf> (<timestampR>)"
+    },
+
+    "PERMISSIONS": {
+        "MessageClient": "> {t:cancel} Ei, **<username>**! para o **funcionamento** desse comando, eu preciso da(s) **permissão(ões)** de <permissions>. peça a um **administrador** para me conceder essa(s) permissões. Obrigada!",
+        "MessageAuthor": "> {t:cancel} Ei, **<username>**! você não tem a(s) **permissão(ões) necessária**, para o **funcionamento** desse **comando**, e preciso da(s) permissão(ões) de <permissions>."
+    },
+
+    "COOLDOWN": {
+        "Message": "> **(⏰) ~** Calma ai, **<username>**! você está utilizando os **comandos** muito **rapidamente**, vá mais devagar, você poderá **utilizar outro comando** novamente [ <cooldown> ]"
     }
 }

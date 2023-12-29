@@ -1,4 +1,4 @@
-import { CommandData, CommandInformations, CommandPermissions, CommandRunner } from "../types/Command";
+import { CommandData, CommandInformations, CommandPermissions, CommandRunner, CommandSubData } from "../types/Command";
 
 export default class CommandBuilder implements CommandData {
     declare name: string;
@@ -6,6 +6,7 @@ export default class CommandBuilder implements CommandData {
     declare infos: CommandInformations;
 
     public permissions?: CommandPermissions;
+    public data?: CommandSubData;
     public aliases?: string[];
     public devops?: boolean;
 

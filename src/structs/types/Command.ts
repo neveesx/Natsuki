@@ -14,11 +14,16 @@ export interface CommandInformations {
     usage: string;
 }
 
+export interface CommandSubData {
+    devops?: boolean;
+    requiredDB?: boolean;
+}
+
 export interface CommandData {
     name: string;
     aliases?: string[];
     permissions?: CommandPermissions;
-    devops?: boolean;
+    data?: CommandSubData
     infos: CommandInformations;
     runner: CommandRunner
 }
